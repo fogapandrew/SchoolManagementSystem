@@ -1,0 +1,45 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    background-color: black; 
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    /* Center horizontally */
+    align-items: center;
+    /* Center vertically */
+    height: 100vh;
+    /* Optionally set the height to fill the viewport */
+    gap: 25px;
+}
+.styled-button {
+    /* Set width and height */
+    width: 150px;
+    height: 100px;
+    /* Add other styling as needed */
+    background-color: #3108e7;
+    /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    /* Add rounded corners */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Style when hover */
+.styled-button:hover {
+    background-color: #e1eae265;
+}
