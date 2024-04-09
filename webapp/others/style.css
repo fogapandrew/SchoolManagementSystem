@@ -31,7 +31,8 @@ justify-content: center;
 /* Center items vertically */
 height: 300px;
 /* Example height */
-width: 500px;
+width: 1000px;
+border-color: white;
 }
 .styled-button {
     /* Set width and height */
@@ -77,4 +78,8 @@ width: 500px;
 
 .dashboard-button:hover{
     background-color: #4213ecea;
+}
+
+h1{
+    color: white;
 }
