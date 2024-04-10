@@ -46,6 +46,6 @@
     }
 
     footer ul li a:hover {
-        color: #ff0;
+        color:#3108e7;
     }
 </style>
