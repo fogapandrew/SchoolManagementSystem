@@ -10,7 +10,8 @@ CREATE TABLE Student (
     Phone_number VARCHAR(20),
     Email_address VARCHAR(255),
     Date_Of_Birth DATE NOT NULL,
-    Gender ENUM('M', 'F') NOT NULL,
+    -- Gender ENUM('M', 'F') NOT NULL,
+    Gender CHAR(8),
     Country_of_residence VARCHAR(100),
     Address VARCHAR(255) NOT NULL,
     PRIMARY KEY (Student_id)
@@ -25,7 +26,8 @@ CREATE TABLE Teacher (
     Phone_number VARCHAR(20),
     Email_address VARCHAR(255),
     Date_Of_Birth DATE NOT NULL,
-    Gender ENUM('M', 'F') NOT NULL,
+    -- Gender ENUM('M', 'F') NOT NULL,
+    Gender CHAR(8),
     Subjects_Taught VARCHAR(20),
     Country_of_residence VARCHAR(100),
     Years_of_experience INT
