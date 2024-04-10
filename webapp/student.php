@@ -62,7 +62,7 @@
 </head>
 
 <body>
-    <main>
+    <?php include 'include/header.php'; ?>
         <div class="container">
             <h2>Student Registration Form</h2>
             <form action="submit.php" method="post">
@@ -101,7 +101,6 @@
                 <input type="submit" value="Submit">
             </form>
         </div>
-
-    </main>
+        <?php include 'include/footer.php'; ?>
 </body>
 </html>

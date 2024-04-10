@@ -4,11 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Enrollment Form</title>
+    <title>Department Registration Form</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #ffffffa4;
+            background-color:#ffffffa4;
             margin: 0;
             padding: 0;
         }
@@ -33,8 +33,8 @@
             margin-bottom: 5px;
         }
 
-        input[type="date"],
-        input[type="text"] {
+        input[type="text"],
+        input[type="number"] {
             width: 100%;
             padding: 8px;
             margin-bottom: 15px;
@@ -43,13 +43,14 @@
             box-sizing: border-box;
         }
 
-        select {
+        textarea {
             width: 100%;
             padding: 8px;
             margin-bottom: 15px;
             border: 1px solid #ccc;
             border-radius: 4px;
             box-sizing: border-box;
+            resize: vertical;
         }
 
         input[type="submit"] {
@@ -64,32 +65,37 @@
         }
 
         input[type="submit"]:hover {
-            background-color: #3108e7;
+            background-color:  #3108e7;
         }
     </style>
 </head>
 
 <body>
-
+     <?php include 'include/header.php'; ?>
     <div class="container">
-        <h2>Enrollment Form</h2>
+        <h2>Department Registration Form</h2>
         <form action="submit.php" method="post">
-            <label for="enroll_date">Enrollment Date:</label>
-            <input type="date" id="enroll_date" name="enroll_date" required>
+            <label for="dep_name">Department Name:</label>
+            <input type="text" id="dep_name" name="dep_name" required>
 
-            <label for="complete_date">Completion Date:</label>
-            <input type="date" id="complete_date" name="complete_date" required>
+            <label for="dep_code">Department Code:</label>
+            <input type="text" id="dep_code" name="dep_code" required>
 
-            <label for="status">Status:</label>
-            <input type="text" id="status" name="status" required>
+            <label for="dep_description">Department Description:</label>
+            <textarea id="dep_description" name="dep_description"></textarea>
 
-            <label for="payment_status">Payment Status:</label>
-            <input type="text" id="payment_status" name="payment_status" required>
-
-            <input type="submit" value="Submit">
-        </form>
-    </div>
-
+            <label for="dep_contact">Department Contact:</label>
+             <input type="number" id="dep_contact" name="dep_contact" required>
+                    
+                    <input type="submit" value="Submit">
+    </form>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+ <?php include 'include/footer.php'; ?>                   
 </body>
-
 </html>

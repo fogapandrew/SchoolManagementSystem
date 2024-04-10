@@ -2,16 +2,16 @@
 <header>
     <nav>
         <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="llmresult.html">DASHBOARD</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="index.php">HOME</a></li>
+            <li><a href="dashboard.php">DASHBOARD</a></li>
+            <li><a href="#contact">CONTACT</a></li>
         </ul>
     </nav>
 </header>
 
 <style>
     header {
-        background-color: #333;
+        background-color:black;
         color: #fff;
         padding: 10px;
     }

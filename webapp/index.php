@@ -15,37 +15,37 @@
             <br>
             <br>
         <div class="content">  
-            <a href="student.html">
+            <a href="student.php">
                 <button class="styled-button">
                     Student
                 </button>
             </a> 
             
-            <a href="program.html">
+            <a href="program.php">
                 <button class="styled-button">
                     School Program
                 </button>
             </a>
             
-            <a href="teacher.html">
+            <a href="teacher.php">
                 <BUtton class="styled-button">
                     Teacher
                 </BUtton>
             </a>
-            <a href="department.html">
+            <a href="department.php">
                 <button class="styled-button">
                     Department
                 </button>
             </a>
 
-            <a href="enrollment.html">
+            <a href="enrollment.php">
                 <button class="styled-button">
                     Enrollment
                 </button>
             </a>
         </div>
 
-        <a href="dashboard.html">
+        <a href="dashboard.php">
             <button class="dashboard-button">GO TO DASHBOARD</button>
         </a>
         

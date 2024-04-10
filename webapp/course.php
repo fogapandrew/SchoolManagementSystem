@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Program Registration Form</title>
+    <title>Course Registration Form</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -71,24 +71,25 @@
 </head>
 
 <body>
-
+    <?php include 'include/header.php'; ?>
     <div class="container">
-        <h2>Program Registration Form</h2>
-        <form action="course.html" method="post">
-            <label for="course_name">Program Name : </label>
-            <br>
-            <select id="cars" name="cars">
-                <option value="Data Science Protection and security">Data Science Protection and security</option>
-                <option value="Internation Business and Trade">Internation Business and Trade</option>
-                <option value="Conputer Science">Conputer Science</option>
-            </select>
-            <br>
-            <br>
-            <br>
+        <h2>Course Registration Form</h2>
+        <form action="submit.php" method="post">
+            <label for="course_name">Course Name:</label>
+            <input type="text" id="course_name" name="course_name" required>
+
+            <label for="course_code">Course Code:</label>
+            <input type="text" id="course_code" name="course_code" required>
+
+            <label for="course_description">Course Description:</label>
+            <textarea id="course_description" name="course_description"></textarea>
+
+            <label for="credits">Credits:</label>
+            <input type="number" id="credits" name="credits" required>
+
             <input type="submit" value="Submit">
         </form>
     </div>
-
+    <?php include 'include/footer.php'; ?>
 </body>
-
 </html>
