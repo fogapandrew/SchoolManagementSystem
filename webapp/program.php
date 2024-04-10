@@ -80,7 +80,7 @@
             <select id="cars" name="cars">
                 <option value="Data Science Protection and security">Data Science Protection and security</option>
                 <option value="Internation Business and Trade">Internation Business and Trade</option>
-                <option value="Conputer Science">Conputer Science</option>
+                <option value="Conputer Science">Computer Science</option>
             </select>
             <br>
             <br>

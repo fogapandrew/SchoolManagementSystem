@@ -164,7 +164,7 @@
     <ul>
         <li onclick="scrollToDiv('section1')" class="List">Data Science Protection and security</li>
         <li onclick="scrollToDiv('section2')" class="List">Internation Business and Trade</li>
-        <li onclick="scrollToDiv('section3')" class="List">Conputer Science</li>
+        <li onclick="scrollToDiv('section3')" class="List">Computer Science</li>
     </ul>
         <div class= "DSPS" id = "section1">
             <table>
