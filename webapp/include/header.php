@@ -3,27 +3,33 @@
     <nav>
         <ul>
             <li><a href="index.php">HOME</a></li>
-            <li><a href="dashboard.php">DASHBOARD</a></li>
-            <li><a href="#contact">CONTACT</a></li>
+            <li class="right"><a href="dashboard.php">DASHBOARD</a></li>
+            <li class="right"><a href="contact.php">CONTACT</a></li>
         </ul>
     </nav>
 </header>
 
 <style>
     header {
-        background-color:black;
+        background-color: black;
         color: #fff;
-        padding: 10px;
+        padding: 25px;
     }
 
     nav ul {
         list-style-type: none;
-       
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: space-between; /* Align items horizontally with space between */
     }
 
     nav ul li {
         display: inline;
-        margin-right: 20px;
+    }
+
+    .right {
+        margin-left: auto; /* Pushes the item to the right */
     }
 
     nav ul li a {
