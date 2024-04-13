@@ -57,10 +57,10 @@ border-color: white;
     width: 400px;
     height: 30px;
     /* Add other styling as needed */
-    background-color: #c0c0c07d;
+    background-color: black;
     /* Green */
     border: none;
-    color: black;
+    color: white;
     text-align: center;
     text-decoration: none;
     display: inline-block;

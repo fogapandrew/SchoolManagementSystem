@@ -65,7 +65,7 @@
         }
 
         input[type="submit"]:hover {
-            background-color: grey;
+            background-color: black;
         }
     </style>
 </head>

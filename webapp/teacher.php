@@ -54,10 +54,11 @@
             border-radius: 4px;
             cursor: pointer;
             font-size: 16px;
+            color : white;
         }
 
         input[type="submit"]:hover {
-            background-color: grey;
+            background-color: black;
         }
     </style>
 </head>
