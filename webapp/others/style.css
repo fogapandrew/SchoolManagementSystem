@@ -1,8 +1,8 @@
 body, html {
-    background-color: black;
-    margin: 0;
+        margin: 0;
         padding: 0;
         height: 100%;
+        color: black;
         display: flex;
         justify-content: center;
         /* Center horizontally */
@@ -39,7 +39,7 @@ border-color: white;
     width: 150px;
     height: 100px;
     /* Add other styling as needed */
-    background-color: #3108e7;
+    background-color:blue;
     /* Green */
     border: none;
     color: white;
@@ -60,7 +60,7 @@ border-color: white;
     background-color: #c0c0c07d;
     /* Green */
     border: none;
-    color: white;
+    color: black;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -73,13 +73,13 @@ border-color: white;
 
 /* Style when hover */
 .styled-button:hover {
-    background-color: #e1eae265;
+    background-color:black;
 }
 
 .dashboard-button:hover{
-    background-color: #4213ecea;
+    background-color:blue;
 }
 
 h1{
-    color: white;
+    color: black;
 }
