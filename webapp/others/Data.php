@@ -7,15 +7,19 @@ class Data {
     private $database;
     private $conn;
 
-    public function __construct($config, $databaseName) {
+    public function __construct($config) {
         $this->servername = $config['database']['host'];
         $this->username = $config['database']['username'];
         $this->password = $config['database']['password'];
-        $this->database = $databaseName;
+        $this->database = $config['database']['dbName'];
+        //$this->database = $databaseName;
         $this->conn = new mysqli($this->servername, $this->username, $this->password, $this->database);
 
         if ($this->conn->connect_error) {
             die("Connection failed: " . $this->conn->connect_error);
+        }
+        else{
+            echo("Connection successful");
         }
     }
 
