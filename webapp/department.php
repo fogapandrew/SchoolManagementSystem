@@ -78,6 +78,9 @@
             <label for="dep_name">Department Name:</label>
             <input type="text" id="dep_name" name="dep_name" required>
 
+            <label for="R_Numbre">Registration Number :</label>
+            <input type="text" id="R_Numbre" name="R_Numbre" required>
+                
             <label for="dep_code">Department Code:</label>
             <input type="text" id="dep_code" name="dep_code" required>
 

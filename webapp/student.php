@@ -71,6 +71,10 @@
         
                 <label for="last_name">Last Name:</label>
                 <input type="text" id="last_name" name="last_name" required>
+                
+                        
+                <label for="R_Numbre">Registration Number :</label>
+                <input type="text" id="R_Numbre" name="R_Numbre" required>
         
                 <label for="phone_number">Phone Number:</label>
                 <input type="text" id="phone_number" name="phone_number">

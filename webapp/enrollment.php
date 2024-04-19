@@ -80,6 +80,9 @@
             <label for="complete_date">Completion Date:</label>
             <input type="date" id="complete_date" name="complete_date" required>
 
+            <label for="R_Numbre">Registration Number :</label>
+            <input type="text" id="R_Numbre" name="R_Numbre" required>
+
             <label for="status">Status:</label>
             <input type="text" id="status" name="status" required>
 
