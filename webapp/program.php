@@ -75,6 +75,9 @@
     <div class="container">
         <h2>Program Registration Form</h2>
         <form action="course.php" method="post">
+            <br>
+            <label for="R_Numbre">Registration Number :</label>
+            <input type="text" id="R_Numbre" name="R_Numbre" required>
             <label for="course_name">Program Name : </label>
             <br>
             <select id="cars" name="cars">
